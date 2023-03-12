@@ -14,7 +14,9 @@ app.use(cors());
 app.use(express.json());
 app.use('/api/contacts', contactRoutes);
 app.use('/api/users', userRoutes);
-
+app.get("/", function (req, res) {
+  res.send("Contact Management BackEnd");
+});
 mongoose
   .connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
