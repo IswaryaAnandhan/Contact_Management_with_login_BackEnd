@@ -1,7 +1,7 @@
 <h2>Contact Management with login BackEnd</h2>
 
 <h3>Steps to Follow:</h3>
-<ol>
+
 1. Set up a MongoDB database
 2. Install MongoDB on your system
 3. Create a database using the MongoDB Atlas
@@ -13,6 +13,6 @@
 9. Generate JWT (JSON Web Token) tokens to be used for authorization
 10. Test the system thoroughly to ensure it meets the requirements
 11. Deploy the system on a cloud service like Heroku or Render
-</ol>
+
 
 <h3>Deployed link: https://contact-management-backend.onrender.com/ </h3>
